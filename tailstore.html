@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            padding-top: 100px; 
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 37px;
+            height: 100px;
+            color: aliceblue;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000622;
+        }
+
+        .header img {
+            display: block;
+            height: 550px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .body-heading {
+            padding-left: 20px;
+        }
+        .products {
+            display: flex;
+            gap: 20px;
+        }
+
+        .product {
+            width: 300px;
+            padding-left: 10px;
+        }
+
+        .product img {
+            width: 300px;
+            height: 40pxpx;
+           
+        }
+        .add-to-cart {
+            width: 100%;
+            height: 50px;
+            background-color: #ff0044;
+            color: rgb(243, 239, 239);
+            border-radius: 999px;   
+        }
+        .add-to-cart:hover{
+            background-color: beige;
+            color : palevioletred;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <header class="dashboard">
+        <nav>
+            <img src="https://preview.themewagon.com/tailstore/assets/images/template-white-logo.png" alt="">
+            <h3>home</h3>
+            <h3>men</h3>
+            <h3>women</h3>
+            <h3>shop</h3>
+            <h3>product</h3>
+            <h3>404 <br>page</h3>
+            <h3>checkout</h3>
+            <button>Register</button>
+            <button>Login</button>
+           
+        </nav>
+
+        <div class="header">
+            <img src="https://preview.themewagon.com/tailstore/assets/images/main-slider/5.jpg" alt="">
+            <img src="https://preview.themewagon.com/tailstore/assets/images/main-slider/2.png" alt="">
+            <img src="https://preview.themewagon.com/tailstore/assets/images/main-slider/4.jpg" alt="">
+        </div>
+    </header>
+
+    <section class="front-page">
+        <div class="body-heading">
+            <h1>Popular Products</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/1.jpg" alt="Summer black dress">
+                    <h2>Summer black dress</h2>
+                    <p>Women</p>
+                        <p>$19.99 <s>$24.99</s>
+                        </p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/2.jpg" alt="Black suit">
+                    <h2>Black suit</h2>
+                    <p>Women</p>
+                        <p>$29.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/3.jpg" alt="">
+                    <h2>Black long dress</h2>
+                    <p>Women, Accessories</p>
+                    <p>$15.99 <s>$19.99</s></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/4.jpg" alt="">
+                    <h2>Black leather jacket</h2>
+                    <p>Women</p>
+                    <p>$39.99<s>$49.99</s></p>
+                    <button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section2 class="middle-page">
+        <div class="middle-heading">
+            <h1>Latest Products</h1>
+            <div class="products">
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/5.jpg" alt="Summer black dress">
+                    <h2>Blue women's suit</h2>
+                    <p>Women</p>
+                        <p>$19.99 <s>$24.99</s>
+                        </p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/6.jpg" alt="Black suit">
+                    <h2>White shirt with long sleeves</h2>
+                    <p>Women</p>
+                        <p>$29.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/7.jpg" alt="">
+                    <h2>Yellow men's suit</h2>
+                    <p>Men</p>
+                    <p><c>$15.99</c> <s>$19.99</s></p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="https://preview.themewagon.com/tailstore/assets/images/products/8.jpg" alt="">
+                    <h2>Red dress</h2>
+                    <p>Women</p>
+                    <p>$39.99<s>$49.99</s></p>
+                    <button class="add-to-cart">Add to Cart</button>
+
+                </div>
+            </div>
+            
+        </div>
+    </section2>
+</body>
+</html>
